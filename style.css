@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+body{
+background-image: url("pictures/orangeleaf.jpg");
+background-repeat: repeat-y;
+font-size: 18pt;
+font-family: "Times New Roman", serif;
+margin-left: 3em;
+}
+
+
+
+H1{
+font-size: 20pt;
+font-family: "Helvetica", "Arial",  sans-serif;
+font-weight: bold;
+text-decoration: underline;
+text-align: left;
+}
+
+
+a{
+color: MidnightBlue;
+white-space: nowrap;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 30pt;
+}
+
+.page-title-ja {
+    text-align: center;
+    font-size: 22pt;
+}
+
+.fields-label {
+    text-decoration: underline;
+}
+
+.email-label {
+    text-decoration: underline;
+}
+
+.email-address {
+    font-family: sans-serif;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.vtop {
+    vertical-align: top;
+}
+
+.tend {
+    text-align: end;
+}
+
+.footer{
+font-style: italic;
+text-align: center;
+}
+.journalname{
+color: Brown;
+font-style: italic;
+}
+.italicbody{
+font-style: italic;
+}
+TABLE.fixed{
+table-layout: fixed;
+width:5cm;
+}
+
+.indented {
+    margin-left: 2em;
+}
